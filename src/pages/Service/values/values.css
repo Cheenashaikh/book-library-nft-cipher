@@ -1,0 +1,33 @@
+.values  {
+    background-color:rgb(56, 20, 20);
+    border-radius: 20px;
+    margin-top: 40px;
+   width: 70rem;
+   margin-left: 30px;
+}
+
+.valuesHeading{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 35px;
+    font-weight: 600;
+}
+
+.valuesText{
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+.valuesList{
+    color: #fff;
+    padding-left: 45px;
+    padding-bottom: 30px;
+}
+.valuesList span{
+    font-weight: bold;
+  
+}

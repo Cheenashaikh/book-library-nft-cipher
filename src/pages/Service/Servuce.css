@@ -1,0 +1,22 @@
+.servics{
+  background-color: var(--grey);
+}
+.aboutHeading{
+  color: var(--red);
+  font-size: 1.5rem;
+  padding: 7px;
+  margin-left: 30px;
+
+
+}
+
+.para{
+  color: #fff;
+  margin-top: 1rem;
+  margin-left: 30px;
+
+}
+.para p{
+  font-size: 1rem;
+
+}

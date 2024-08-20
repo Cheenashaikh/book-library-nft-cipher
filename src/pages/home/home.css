@@ -1,0 +1,203 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.bookCard {
+  background-color: var(--grey);
+  margin-bottom: 0;
+  height: auto;
+}
+
+.book-card-container {
+  cursor: pointer;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  position: relative;
+  background-color: var(--grey);
+  padding: 20px 0 50px;
+}
+
+.icon button {
+  font-size: 1.5rem;
+  margin-left: 95%;
+  width: 40px;
+  margin-top: 20px;
+}
+
+.book-card {
+  align-items: center;
+  background-color: var(--maroon);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25rem;
+  padding: 5px;
+  position: relative;
+  box-sizing: border-box;
+  color: #fff;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  white-space: normal;
+  letter-spacing: 0.3px;
+}
+
+.cardviewHeading {
+  max-width: 200px;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.book-card:hover {
+  animation: moveCard 0.5s ease-in-out forwards;
+  box-shadow: 10px 15px 15px 10px rgb(116, 116, 116);
+  background-color: var(--grey);
+}
+
+@keyframes moveCard {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(10px, -10px);
+  }
+}
+
+.productImage {
+  /* width: 16.2rem; */
+  height: 80%;
+  object-fit: cover;
+  cursor: pointer;
+  border: none;
+  padding-bottom: 7px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+h3,
+p {
+  margin: 0;
+  padding: 3px;
+  font-family: "Poppins";
+  font-size: xx-small;
+}
+
+p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: x-small;
+}
+
+.body {
+  background-color: #f5f5f5;
+}
+
+.img {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  fill: #999;
+  right: 30px;
+}
+
+.hoverElements {
+  background-color: orange;
+  position: absolute;
+
+  width: 180px;
+
+  display: none;
+}
+
+.hoverElements h3 {
+  color: #fff;
+  font-size: 13px;
+}
+
+.book-card:hover .hoverElements {
+  display: block;
+}
+
+.list-view-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-view {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  color: #fff;
+  padding: 2px;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: var(--grey);
+  width: 95%;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+  height: 220px;
+  margin-bottom: 30px;
+}
+
+.list-view div {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.list-view .imageProduct {
+  width: 120px;
+  height: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.list-view h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+
+  color: #fff;
+}
+
+.list-view p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  margin: 4px 0 0 0;
+  color: #fff;
+  line-height: 20px;
+}
+
+/* .imageProduct {
+  width: 17rem;
+  height: 15rem;
+  object-fit: cover;
+  cursor: pointer;
+  border: none;
+} */
+
+.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

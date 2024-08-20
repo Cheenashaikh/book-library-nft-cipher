@@ -1,0 +1,89 @@
+
+
+.servicsFooter {
+    background-color: #757575;
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 70rem;
+    margin-left: 30px;
+    height: 30rem;
+}
+
+
+.footerLogo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #fff;
+    margin: 0;
+    padding-top: 30%;
+    padding-left: 35px;
+
+
+
+}
+
+
+.footerLogo h2 span {
+    color: rgb(220, 22, 22);
+}
+
+.footerLogo p span {
+    color: rgb(220, 22, 22);
+
+}
+
+.footerLogo p {
+    padding-top: none;
+    padding-left: 35px;
+}
+
+.footerText {
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+
+.servicsFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactAndGmail {
+    color: #fff;
+    font-size: rem;
+    padding-top: 200px;
+    margin: 0;
+    font-weight: 400;
+    padding-right: 100px;
+
+}
+.contactAndGmail p{
+    font-size: 1.3rem;
+    font-weight: 800;
+
+}
+.footerList{
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 1rem;
+    font-weight: 400;
+ 
+
+   
+}
+.footerList li{
+    list-style-type: none;
+    padding-left: 30px;
+ 
+}
+.footerList ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

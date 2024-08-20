@@ -1,0 +1,90 @@
+.book {
+    padding: 20px;
+    background-color: #2e2e2e;
+    box-shadow: 0 2px 4px rgba(56, 56, 56, 0.5);
+    ;
+
+}
+
+
+
+
+.heading {
+    margin: 6rem;
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+
+}
+
+.heading span {
+    color: rgb(220, 22, 22);
+}
+
+.bookData {
+
+
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    padding: 50px;
+    border-radius: 1px;
+
+    justify-items: center;
+    /* margin-right: 1rem; */
+    width: 100%;
+    margin-right: 60px;
+
+}
+
+.bookData div {
+   margin-right: 1rem;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    margin-bottom: 20px;
+    padding: 0px;
+    width: 14rem;
+    transition: transform 1s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.bookData div :hover {
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+
+}
+
+.bookData img {
+    width: 100%;
+    height: 20rem;
+    transition: transform 0.1s ease-in-out;
+    opacity: 1;
+}
+
+.bookData div:hover img {
+    opacity: 0.5;
+}
+
+.bookData p {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    color: rgb(220, 22, 22);
+    text-align: center;
+    display: none;
+    font-size: 2rem;
+}
+
+.bookData div:hover p {
+    display: block;
+    box-shadow: none;
+}

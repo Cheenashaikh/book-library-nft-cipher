@@ -1,0 +1,15 @@
+.topImages img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+
+}
+
+.topImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

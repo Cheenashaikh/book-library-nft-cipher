@@ -1,0 +1,35 @@
+.footerContactUs {
+    background-color: #333;
+    color: rgb(220, 22, 22);;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    height: 200px;
+}
+
+.footerContactUs p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContactUs p svg {
+    margin-right: 10px;
+    color: rgb(220, 22, 22);;
+}
+
+.footerContactUs p:hover {
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.footerContactUs p:hover svg {
+    color: #fff;
+    ;
+    transition: color 0.3s ease-in-out;
+}

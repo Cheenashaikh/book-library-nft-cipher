@@ -1,0 +1,32 @@
+.aboutUs {
+  background-color: rgb(99, 6, 6);
+  margin: 0 0;
+  padding: 50px 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.list h2 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.list ul {
+  list-style-type: none;
+  text-align: center;
+  line-height: 1.6;
+  color: #fff;
+  font-weight: bold;
+}
+
+.aboutUs p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+  font-weight: bold;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}

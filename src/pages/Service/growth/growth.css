@@ -1,0 +1,23 @@
+.growth  {
+    background-color: var(--maroon);
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 70rem;
+    margin-left: 30px;
+}
+.growthHeading{
+    color: #fff;
+    font-size: 32px;
+    padding-top: 10px;
+    padding-left: 35px;
+    font-weight: 600;
+}
+
+.growthText{
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
